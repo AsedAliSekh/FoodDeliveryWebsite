@@ -1,0 +1,341 @@
+.uni-padding{
+    padding: 0 7%;
+}
+*{
+    margin: 0;
+    padding: 0;
+   /* border: 3px solid red; */
+}
+#group1 {
+    background-image: url("../images/g1_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    
+
+}
+
+#header{
+    display: flex;
+}
+
+#logo{
+    color: white;
+    font-size: x-large;
+    padding-top: 25px;
+    
+}
+
+/* nav ber style */
+#navber ul li {
+    list-style: none;
+    display: inline;
+    padding-top: 25px;
+    float: right;
+    position: relative;
+    right: -150px;
+    
+
+}
+#navber ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    padding: 10px;
+    margin: auto 20px;
+    
+    
+    
+    
+}
+
+
+/* inside div style  */
+#inside {
+    height: 350px;
+    width: 550px;
+    background-color: white;
+    opacity: 0.7;
+    text-align: center;
+    margin:200px auto;
+    position: relative;
+
+}
+#container h2{
+    padding-top: 70px;
+    font-size: 50px;
+    color: #2C3A42;
+}
+#container h1{
+    font-size: 60px;
+    color: #AD6C12;
+    padding-bottom: 50px;
+}
+#container a{
+   text-decoration: none;
+   color: #2C3A42;
+   background-color: gold;
+   font-size: x-large;
+   padding: 15px 25px;
+}
+
+/* group 2 style  */
+#group2{
+    height: 400px;
+    background-color: #2A3B40;
+    color: #D4D8D9;
+}
+#g2text{
+    display: inline-block;
+    width: 50%;
+   
+}
+#g2text h3{
+    
+    position: relative;
+    top: -180px;
+}
+#g2text p{
+    text-align: justify;
+    position: relative;
+    top: -150px;
+}
+#g2img{
+    display: inline-block;
+    
+}
+
+#g2img img{
+    margin: 50px auto;
+    position: relative;
+    left: 9%;
+}
+
+/* group 3 style  */
+#group3{
+    height: 280px;
+    background-color: #D4D8D9;
+    position: relative;
+}
+.gr3text{
+    display: inline-block;
+    width: 30%;
+    margin: 100px auto;
+    margin-left: 20px;
+}
+
+/* group 4 style  */
+#group4{
+    background-image: url('../images/gr4_bg.jpg');
+    background-size: 100% 100%;
+    height: 950px; 
+}
+#g4tbl{
+    background-color: rgba(253, 253, 253, 0.7);
+    height: 600px;
+    width: fit-content;
+    margin: auto;
+    
+}
+#g4tbl img{
+    height: 200px;
+    width: 200px;
+}
+#cap{
+    height: 150px;
+    background-color: rgba(253, 253, 253, 0.7);
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 90px;
+}
+.clrtext{
+    color: #AD6C12;
+   
+}
+#g4tbl td{
+    width: 200px;
+    text-align: center;
+}
+
+/* group 5 style  */
+#group5{
+    height: 300px;
+    background-color: #D4D8D9;
+    text-align: center;
+    background-image: url("../images/gr5_png.png"), url("../images/gr5_rt_png.png");
+    background-repeat: no-repeat;
+    background-position: left, right;
+    color: #2A3B40;
+    
+}
+#group5 h3{
+    padding: 70px 0px 10px 0px;
+}
+
+#group5 a{
+    text-decoration: none;
+    color: #2A3B40;
+    display: inline-block;
+    margin-top: 60px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+/* group 6 style  */
+#group6{
+    height: 700px;
+    background-image: url('../images/gr6_bg.jpg');
+    background-size: cover;
+}
+#g6menu{
+    height: 500px;
+    background-color: rgba(253, 253, 253, 0.7);
+    position: relative;
+    top: 200px;
+    text-align: center;
+}#g6menu h1{
+    padding-top: 15px;
+    
+}
+
+
+#g6tbl{
+    display: inline-block;
+    
+    text-align: left;
+}
+#g6tbl img{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+#g6tbl td{
+    display: inline-block;
+    padding: 10px;
+    
+}
+/* group 7 style  */
+#group7bg{
+    height: 600px;
+    background-image: url("../images/gr7_bg.jpg");
+    background-size: cover;
+}
+#group7frm{
+    height: 300px;
+    background-color: #2A3B40;
+    color: white;
+    
+}
+#bookHere{
+    width: 100%;
+}
+#bookHere caption{
+    padding: 15px;
+}
+#bookHere td{
+    padding: 15px;
+    
+    
+   
+}
+#bookHere input{
+    background-color: #2A3B40;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 50%;
+
+}
+#bookHere input:focus{
+    color: white;
+}
+#submit{
+    color: white;
+    cursor: pointer;
+}
+
+/* group 8 only background image  */
+#group8bg{
+    height: 600px;
+    background-image: url("../images/gr8_bg.jpg");
+    background-size: cover;
+}
+
+/* group 9 three card  */
+#group9{
+    height: 550px;
+    background-color: #D4D8D9;
+    text-align: center;
+}
+#group9 h1{
+    padding-top: 15px;
+}
+.card{
+    display: inline-block;
+
+    width: 220px;
+    height: 340px;
+    background-color: white;
+    text-align: left;
+    margin: 50px 30px;
+}
+.card p{
+    margin: 8px;
+}
+
+.card a{
+    text-decoration: underline;
+    color: #FF992B;
+    text-underline-offset: 4px ;
+    text-decoration-thickness: 4px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+
+
+
+
+/* footer style */
+#topfooter{
+    background-color: #2A3B40;
+    height: 200px;
+    text-align: center;
+    color: #D4D8D9;
+}
+#topfooter h1{
+    font-size: 35px;
+    padding-top: 40px;
+}
+#topfooter p{
+    font-size: 20px;
+    /* margin-top: 50px; */
+}
+#btmfooter{
+    height: 200px;
+    background-color: #D4D8D9;
+    
+}
+#lfbtm{
+    display: inline-block;
+    width: 50%;
+    padding-top: 50px;
+}
+#rtbtm{
+    display: inline-block;
+    
+}
+.btm3{
+    display: inline-block;
+    width: 120px;
+    position: relative;
+    top: -8px;
+    left: 120px;
+    height: 100px;
+}
+.btm3 a{
+    text-decoration: none;
+    color: black;
+    line-height: 12px;
+    
+}
